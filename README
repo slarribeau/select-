@@ -1,0 +1,38 @@
+Make select pull down menu pop a bit. Found these articles:
+https://speckyboy.com/open-source-css-javascript-select-box-snippets/
+https://codepen.io/wallaceerick/pen/ctsCz
+
+NOTE, this code uses compass and sass.
+Scotts-MacBook-Pro:select_plus_plus scottlarribeau$ which compass
+/Users/scottlarribeau/.rvm/gems/ruby-2.3.4/bin/compass
+
+
+to build button.css, enter the following command
+Scotts-MacBook-Pro:select_plus_plus scottlarribeau$ compass compile
+    write stylesheets/buttons.css
+
+Note that compass expects two subdirectories:
+1) sass
+2) stylesheets
+
+Scotts-MacBook-Pro:select_plus_plus scottlarribeau$ tree
+.
+├── README
+├── config.rb
+├── foo.html
+├── sass
+│   ├── buttons.scss
+│   ├── ie.scss
+│   ├── print.scss
+│   └── screen.scss
+├── script.js
+├── style.css
+└── stylesheets
+    ├── buttons.css
+    ├── ie.css
+    ├── ie.css.bak
+    ├── print.css
+    └── screen.css
+
+2 directories, 14 files
+
